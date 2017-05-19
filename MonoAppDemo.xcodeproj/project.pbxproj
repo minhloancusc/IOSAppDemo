@@ -194,15 +194,18 @@
 					8A26D2F51ECEC67D00169184 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = HZX8K8U4U4;
+						LastSwiftMigration = 0810;
 					};
 					8A26D3091ECEC67D00169184 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = HZX8K8U4U4;
+						LastSwiftMigration = 0810;
 						TestTargetID = 8A26D2F51ECEC67D00169184;
 					};
 					8A26D3141ECEC67D00169184 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = HZX8K8U4U4;
+						LastSwiftMigration = 0810;
 						TestTargetID = 8A26D2F51ECEC67D00169184;
 					};
 				};
@@ -408,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minhloan.MonoAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -419,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minhloan.MonoAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -430,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minhloan.MonoAppDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonoAppDemo.app/MonoAppDemo";
 			};
 			name = Debug;
@@ -442,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minhloan.MonoAppDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonoAppDemo.app/MonoAppDemo";
 			};
 			name = Release;
@@ -453,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minhloan.MonoAppDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = MonoAppDemo;
 			};
 			name = Debug;
@@ -464,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = minhloan.MonoAppDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = MonoAppDemo;
 			};
 			name = Release;
@@ -487,6 +496,7 @@
 				8A26D3201ECEC67D00169184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A26D3211ECEC67D00169184 /* Build configuration list for PBXNativeTarget "MonoAppDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +505,7 @@
 				8A26D3231ECEC67D00169184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A26D3241ECEC67D00169184 /* Build configuration list for PBXNativeTarget "MonoAppDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +514,7 @@
 				8A26D3261ECEC67D00169184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
