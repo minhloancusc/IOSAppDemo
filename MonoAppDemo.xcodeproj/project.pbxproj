@@ -14,6 +14,7 @@
 		8A26D3041ECEC67D00169184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A26D3021ECEC67D00169184 /* LaunchScreen.storyboard */; };
 		8A26D30F1ECEC67D00169184 /* MonoAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26D30E1ECEC67D00169184 /* MonoAppDemoTests.swift */; };
 		8A26D31A1ECEC67D00169184 /* MonoAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26D3191ECEC67D00169184 /* MonoAppDemoUITests.swift */; };
+		8A26D3281ECED25E00169184 /* myfile1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26D3271ECED25E00169184 /* myfile1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8A26D3151ECEC67D00169184 /* MonoAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonoAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A26D3191ECEC67D00169184 /* MonoAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoAppDemoUITests.swift; sourceTree = "<group>"; };
 		8A26D31B1ECEC67D00169184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A26D3271ECED25E00169184 /* myfile1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myfile1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8A26D3001ECEC67D00169184 /* Assets.xcassets */,
 				8A26D3021ECEC67D00169184 /* LaunchScreen.storyboard */,
 				8A26D3051ECEC67D00169184 /* Info.plist */,
+				8A26D3271ECED25E00169184 /* myfile1.swift */,
 			);
 			path = MonoAppDemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				8A26D2FC1ECEC67D00169184 /* ViewController.swift in Sources */,
 				8A26D2FA1ECEC67D00169184 /* AppDelegate.swift in Sources */,
+				8A26D3281ECED25E00169184 /* myfile1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 				8A26D3201ECEC67D00169184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A26D3211ECEC67D00169184 /* Build configuration list for PBXNativeTarget "MonoAppDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				8A26D3231ECEC67D00169184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A26D3241ECEC67D00169184 /* Build configuration list for PBXNativeTarget "MonoAppDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				8A26D3261ECEC67D00169184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
